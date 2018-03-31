@@ -30,6 +30,7 @@ class Scheduler():
                 time.sleep(cycle)
             except Exception as e:
                 continue
+
     
     def schedule_api(self):
         """
